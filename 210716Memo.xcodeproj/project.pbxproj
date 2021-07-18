@@ -22,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C07ECA326A425F500E7E194 /* 210716Memo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 210716Memo.entitlements; sourceTree = "<group>"; };
 		7C71154026A2875600026279 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		7C71154326A2C3FC00026279 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7C71154726A2D3DD00026279 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		7CB72C1526A1302A00E43492 /* 210716Memo */ = {
 			isa = PBXGroup;
 			children = (
+				7C07ECA326A425F500E7E194 /* 210716Memo.entitlements */,
 				7C71154626A2D3C900026279 /* Data */,
 				7CB72C3226A163DC00E43492 /* Model */,
 				7CB72C1626A1302A00E43492 /* AppDelegate.swift */,
@@ -326,8 +328,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 210716Memo/210716Memo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C3N2FXBXWT;
 				INFOPLIST_FILE = 210716Memo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,6 +339,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sherlocked.-10716Memo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -346,8 +351,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 210716Memo/210716Memo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C3N2FXBXWT;
 				INFOPLIST_FILE = 210716Memo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +362,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sherlocked.-10716Memo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
